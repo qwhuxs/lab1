@@ -1,0 +1,22 @@
+input[type="radio"] {
+  display: none;
+}
+label {
+  display: block;
+  background-color: rgb(52, 50, 50);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 50px;
+}
+label:hover {
+  background-color: rgb(97, 96, 96);
+}
+label + div {
+  border: 1px solid gray;
+  display: none;
+  font-size: 30px;
+  background-color: rgb(147, 179, 216);
+}
+input[type="radio"]:checked + label + div {
+  display: block;
+}

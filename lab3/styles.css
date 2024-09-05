@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(0, 0, 255, 0.723);
+}
+ul {
+  max-width: 200px;
+  background-color: azure;
+  list-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 3px solid red;
+}
+ul + ul {
+  border: none;
+}
+ul ul {
+  border-left: 3px solid orange;
+}
+ul ul + ul {
+  border-color: red;
+  margin-top: 5px;
+}
+ul ul ul {
+  border: none;
+}
+ul ul ul li {
+  border-left: 3px solid orange;
+  padding: 5px 0 5px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+li:hover {
+  background-color: rgb(239, 238, 238);
+}
